@@ -13,7 +13,6 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "com.softwaremill.sttp.tapir" %% "tapir-core"          % TapirVersion,
       "com.softwaremill.sttp.tapir" %% "tapir-http4s-server" % TapirVersion,
-      "com.softwaremill.sttp.tapir" %% "tapir-sttp-client"   % TapirVersion,
       "org.http4s"                  %% "http4s-blaze-server" % Http4sVersion,
       "org.http4s"                  %% "http4s-blaze-client" % Http4sVersion,
       "org.http4s"                  %% "http4s-circe"        % Http4sVersion,
